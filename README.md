@@ -282,18 +282,9 @@ FROM loans_enriched;
 ```text
 loan-default-risk-analysis/
 ├── README.md
-├── sql/
-│   ├── data_cleaning.sql
-│   ├── feature_engineering.sql
-│   └── business_analysis.sql
-├── power-bi/
-│   └── loan_default_dashboard.pbix
+├── loan_default_analysis.sql
+├── loans_enriched_view.sql
 ├── screenshots/
-│   ├── 01_overview.png
-│   ├── 02_risk_analysis.png
-│   ├── 03_customer_loan_segments.png
-│   ├── 04_geographic_analysis.png
-│   └── 05_detailed_analysis.png
 └── .gitignore
 ```
 
